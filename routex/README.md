@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SwiftShip Logistics - Landing Page
 
-## Getting Started
+A modern, static landing page for a fictional logistics and shipping company, built with a focus on exceptional UI/UX design and smooth animations.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-16.1.1-black?style=flat-square&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38bdf8?style=flat-square&logo=tailwind-css)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Modern UI/UX Design** - Clean, professional interface with industrial aesthetics
+- **Smooth Scroll Animations** - Framer Motion powered animations that trigger on scroll
+- **Responsive Design** - Fully responsive across all device sizes
+- **shadcn/ui Components** - Built with high-quality, accessible components
+- **Type-Safe** - Full TypeScript implementation
+- **Performance Optimized** - Next.js 16 with optimized images and fonts
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎨 Design Highlights
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Industrial Theme** - Bold typography, grid layouts, and shipping-inspired design elements
+- **Smooth Animations** - Fade-in effects, stagger animations, and parallax scrolling
+- **Custom Components** - Navigation, hero section, services grid, booking form, fleet showcase
+- **Dark Mode Ready** - Built with CSS variables for easy theming
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework:** [Next.js 16](https://nextjs.org/) (App Router)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS 4](https://tailwindcss.com/)
+- **UI Components:** [shadcn/ui](https://ui.shadcn.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Font:** [Manrope](https://fonts.google.com/specimen/Manrope) (Google Fonts)
+- **Analytics:** [Vercel Analytics](https://vercel.com/analytics)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 shadcn/ui Components Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project leverages the following shadcn/ui components:
 
-## Deploy on Vercel
+- `Button` - Call-to-action and navigation buttons
+- `Input` - Form inputs with consistent styling
+- `Label` - Accessible form labels
+- `Select` - Dropdown selections for booking form
+- `Badge` - Status indicators and tags
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+All components are customized to match the industrial logistics theme while maintaining accessibility standards.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+### Animations
+Modify `components/scroll-animation.tsx` to adjust:
+- Animation duration
+- Easing curves
+- Threshold values
+- Animation types
+
+
+## 🙏 Acknowledgments
+
+- [shadcn/ui](https://ui.shadcn.com/) for the amazing component library
+- [Vercel](https://vercel.com/) for Next.js and hosting
+- [Lucide](https://lucide.dev/) for beautiful icons
+- [Framer Motion](https://www.framer.com/motion/) for smooth animations
+
+---
+
+**Note:** This is a static landing page demonstration project focusing on UI/UX design and modern web development practices. It is not connected to any real logistics company or backend services.
