@@ -15,19 +15,19 @@ export const metadata: Metadata = {
     icons: {
         icon: [
             {
-                url: '/icon-light-32x32.png',
+                url: '/swiftship-logo.png',
                 media: '(prefers-color-scheme: light)',
             },
             {
-                url: '/icon-dark-32x32.png',
+                url: '/swiftship-logo.png',
                 media: '(prefers-color-scheme: dark)',
             },
             {
-                url: '/icon.svg',
+                url: '/swiftship-logo.png',
                 type: 'image/svg+xml',
             },
         ],
-        apple: '/apple-icon.png',
+        apple: '/swiftship-logo.png',
     },
 }
 
@@ -37,8 +37,8 @@ export default function RootLayout({
     children: React.ReactNode
 }>) {
     return (
-        <html lang="en">
-            <body className={`${manrope.className} antialiased`}>
+        <html lang="en" suppressHydrationWarning>
+            <body className={`${manrope.className} antialiased`} suppressHydrationWarning>
                 {children}
                 <Analytics />
             </body>
